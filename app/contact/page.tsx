@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
+import PageHeader from "@/components/PageHeader";
 import { Mail, MapPin, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -10,17 +11,11 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <div>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-primary/5 to-cream py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 font-heading">
-            Get in Touch
-          </h1>
-          <p className="text-xl text-gray-700 leading-relaxed">
-            I&rsquo;d love to hear from you and discuss how I can care for your pets
-          </p>
-        </div>
-      </section>
+      <PageHeader
+        title="Get in Touch"
+        subtitle="I'd love to hear from you and discuss how I can care for your pets"
+        variant="gradient"
+      />
 
       {/* Contact Section */}
       <section className="py-20">

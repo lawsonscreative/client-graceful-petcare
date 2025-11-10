@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Button from "@/components/Button";
+import PageHeader from "@/components/PageHeader";
 import FAQItem from "@/components/FAQItem";
 import faqData from "@/data/faq.json";
 
@@ -11,17 +12,10 @@ export const metadata: Metadata = {
 export default function FAQ() {
   return (
     <div>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-primary/5 to-cream py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 font-heading">
-            Frequently Asked Questions
-          </h1>
-          <p className="text-xl text-gray-700 leading-relaxed">
-            Everything you need to know about my pet care services
-          </p>
-        </div>
-      </section>
+      <PageHeader
+        title="Frequently Asked Questions"
+        subtitle="Everything you need to know about my pet care services"
+      />
 
       {/* FAQ Section */}
       <section className="py-20">

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Button from "@/components/Button";
 import ServiceCard from "@/components/ServiceCard";
-import TestimonialCard from "@/components/TestimonialCard";
+import TestimonialCarousel from "@/components/TestimonialCarousel";
 import TrustBadge from "@/components/TrustBadge";
 import { Shield, Calendar, Camera, Home as HomeIcon, Clock } from "lucide-react";
 import services from "@/data/services.json";
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-primary/5 to-cream py-20 lg:py-32">
+      <section className="relative bg-gradient-to-b from-primary/5 to-cream py-12 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -113,18 +113,7 @@ export default function Home() {
               Real reviews from happy clients across Ashford
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {testimonials.map((testimonial) => (
-              <TestimonialCard
-                key={testimonial.id}
-                name={testimonial.name}
-                location={testimonial.location}
-                petType={testimonial.petType}
-                text={testimonial.text}
-                rating={testimonial.rating}
-              />
-            ))}
-          </div>
+          <TestimonialCarousel testimonials={testimonials} />
         </div>
       </section>
 

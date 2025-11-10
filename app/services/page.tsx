@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import Button from "@/components/Button";
+import PageHeader from "@/components/PageHeader";
 import { Home, Footprints, Clock, Check } from "lucide-react";
 import services from "@/data/services.json";
 
@@ -18,17 +19,10 @@ const iconMap = {
 export default function Services() {
   return (
     <div>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-primary/5 to-cream py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 font-heading">
-            Pet Care Services
-          </h1>
-          <p className="text-xl text-gray-700 leading-relaxed">
-            Tailored care for your beloved pets in the comfort of their own home
-          </p>
-        </div>
-      </section>
+      <PageHeader
+        title="Pet Care Services"
+        subtitle="Tailored care for your beloved pets in the comfort of their own home"
+      />
 
       {/* Services Detail Section */}
       <section className="py-20">
