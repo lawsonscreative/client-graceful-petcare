@@ -11,7 +11,16 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-primary/5 to-cream py-12 lg:py-20">
+      <section className="relative bg-gradient-to-b from-primary/5 to-cream py-12 lg:py-20 overflow-hidden">
+        {/* Decorative Background Heartpaw */}
+        <div className="absolute top-10 right-10 w-96 h-96 opacity-[0.03] pointer-events-none rotate-12">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -45,7 +54,16 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-white">
+      <section className="relative py-20 bg-white overflow-hidden">
+        {/* Decorative Background Heartpaw */}
+        <div className="absolute bottom-20 left-10 w-80 h-80 opacity-[0.04] pointer-events-none -rotate-[25deg]">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-heading">
@@ -103,7 +121,16 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-white">
+      <section className="relative py-20 bg-white overflow-hidden">
+        {/* Decorative Background Heartpaw */}
+        <div className="absolute top-10 right-20 w-72 h-72 opacity-[0.03] pointer-events-none rotate-[35deg]">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-heading">

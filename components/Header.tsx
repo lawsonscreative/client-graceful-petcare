@@ -3,11 +3,13 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import Button from './Button';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const navigation = [
     { name: 'Home', href: '/' },
@@ -16,6 +18,13 @@ export default function Header() {
     { name: 'FAQ', href: '/faq' },
     { name: 'Contact', href: '/contact' },
   ];
+
+  const isActive = (href: string) => {
+    if (href === '/') {
+      return pathname === '/';
+    }
+    return pathname?.startsWith(href);
+  };
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
@@ -43,9 +52,16 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-primary font-medium transition-colors"
+                className={`font-medium transition-colors relative pb-1 ${
+                  isActive(item.href)
+                    ? 'text-primary font-bold'
+                    : 'text-gray-700 hover:text-primary'
+                }`}
               >
                 {item.name}
+                {isActive(item.href) && (
+                  <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full"></span>
+                )}
               </Link>
             ))}
             <Button href="/contact" size="sm">
@@ -76,7 +92,11 @@ export default function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-gray-700 hover:text-primary font-medium transition-colors px-4 py-2"
+                  className={`font-medium transition-colors px-4 py-2 rounded-lg ${
+                    isActive(item.href)
+                      ? 'text-primary font-bold bg-primary/10'
+                      : 'text-gray-700 hover:text-primary hover:bg-gray-50'
+                  }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}

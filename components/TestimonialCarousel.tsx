@@ -36,9 +36,11 @@ export default function TestimonialCarousel({ testimonials }: TestimonialCarouse
   useEffect(() => {
     if (!isAutoPlaying) return;
 
-    const interval = setInterval(goToNext, 5000);
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % totalSlides);
+    }, 5000);
     return () => clearInterval(interval);
-  }, [isAutoPlaying, currentIndex]);
+  }, [isAutoPlaying, totalSlides]);
 
   // Pause auto-play on hover
   const handleMouseEnter = () => setIsAutoPlaying(false);
