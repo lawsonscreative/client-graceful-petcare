@@ -13,7 +13,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-primary/5 to-cream py-12 lg:py-20 overflow-hidden">
         {/* Decorative Background Heartpaw */}
-        <div className="absolute top-10 right-10 w-96 h-96 opacity-[0.03] pointer-events-none rotate-12">
+        <div className="absolute -top-20 -right-20 w-[400px] h-[400px] opacity-[0.15] pointer-events-none rotate-12">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -56,7 +56,7 @@ export default function Home() {
       {/* Services Section */}
       <section className="relative py-20 bg-white overflow-hidden">
         {/* Decorative Background Heartpaw */}
-        <div className="absolute bottom-20 left-10 w-80 h-80 opacity-[0.04] pointer-events-none -rotate-[25deg]">
+        <div className="absolute -bottom-10 -left-20 w-[350px] h-[350px] opacity-[0.18] pointer-events-none -rotate-[25deg]">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -123,7 +123,7 @@ export default function Home() {
       {/* Testimonials Section */}
       <section className="relative py-20 bg-white overflow-hidden">
         {/* Decorative Background Heartpaw */}
-        <div className="absolute top-10 right-20 w-72 h-72 opacity-[0.03] pointer-events-none rotate-[35deg]">
+        <div className="absolute -top-20 -right-20 w-[380px] h-[380px] opacity-[0.16] pointer-events-none rotate-[35deg]">
           <Image
             src="/images/heartpaw.png"
             alt=""
