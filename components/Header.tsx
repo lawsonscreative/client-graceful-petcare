@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import Button from './Button';
 
@@ -22,7 +23,16 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 group">
-            <div className="text-2xl font-bold text-primary font-heading group-hover:text-primary-dark transition-colors">
+            <div className="relative w-10 h-10 sm:w-12 sm:h-12 flex-shrink-0">
+              <Image
+                src="/images/heartpaw.png"
+                alt="Graceful Pet Care Logo"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+            <div className="text-xl sm:text-2xl font-bold text-primary font-heading group-hover:text-primary-dark transition-colors">
               Graceful Pet Care
             </div>
           </Link>

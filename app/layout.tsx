@@ -22,11 +22,23 @@ export const metadata: Metadata = {
   description: "Professional pet sitting, dog walking, and drop-in visits in Ashford and surrounding villages. Over 15 years experience. Fully insured. Your pets stay happy at home.",
   keywords: ["pet sitting", "dog walking", "pet care", "Ashford", "Kent", "pet sitter", "house sitting"],
   authors: [{ name: "Graceful Pet Care" }],
+  icons: {
+    icon: '/images/heartpaw.png',
+    apple: '/images/heartpaw.png',
+  },
   openGraph: {
     title: "Graceful Pet Care | Trusted Pet Sitting in Ashford, Kent",
     description: "Professional pet sitting, dog walking, and drop-in visits in Ashford and surrounding villages.",
     type: "website",
     locale: "en_GB",
+    images: [
+      {
+        url: '/images/flyer_page_2.png',
+        width: 1200,
+        height: 630,
+        alt: 'Graceful Pet Care Logo',
+      },
+    ],
   },
 };
 
