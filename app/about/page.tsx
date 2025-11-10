@@ -65,32 +65,32 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <TrustBadge
               icon={Clock}
-              title="15+ Years Experience"
+              title="15+ years experience"
               description="Caring for pets of all types, sizes, and temperaments"
             />
             <TrustBadge
               icon={Shield}
-              title="Fully Insured"
+              title="Fully insured"
               description="Professional insurance for complete peace of mind"
             />
             <TrustBadge
               icon={Heart}
-              title="Genuine Pet Lover"
+              title="Genuine pet lover"
               description="Every pet receives the same love I'd give my own"
             />
             <TrustBadge
               icon={Home}
-              title="Home Comfort"
+              title="Home comfort"
               description="Your pets stay in their familiar, safe environment"
             />
             <TrustBadge
               icon={Pill}
-              title="Medication Experienced"
+              title="Medication experienced"
               description="Comfortable administering all types of medication"
             />
             <TrustBadge
               icon={Camera}
-              title="Daily Updates"
+              title="Daily updates"
               description="Photos and videos so you never miss a moment"
             />
           </div>
@@ -139,7 +139,7 @@ export default function About() {
       <section className="py-20 bg-primary text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 font-heading">
-            Let&rsquo;s Talk About Your Pet&rsquo;s Needs
+            Let&rsquo;s talk about your pet&rsquo;s needs
           </h2>
           <p className="text-xl mb-8 text-white/90">
             I&rsquo;d love to meet you and your pet. Get in touch to discuss how I can help.

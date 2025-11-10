@@ -6,7 +6,7 @@ import { Mail, MapPin, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact | Get a Quote for Pet Care in Ashford, Kent",
-  description: "Get in touch with Graceful Pet Care for pet sitting, dog walking, and drop-in visits in Ashford. Contact hello@gracefulpetcare.co.uk for a personalized quote.",
+  description: "Get in touch with Graceful Pet Care for pet sitting, dog walking, and drop-in visits in Ashford. Contact hello@gracefulpetcare.co.uk for a personalised quote.",
 };
 
 export default function Contact() {

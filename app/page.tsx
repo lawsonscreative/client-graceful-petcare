@@ -16,7 +16,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 font-heading leading-tight">
-                Trusted pet care in Ashford while you&rsquo;re away
+                Trusted pet care in Ashford
               </h1>
               <p className="text-xl text-gray-700 mb-8 leading-relaxed">
                 Your pets stay happy at home with experienced, insured care
@@ -80,23 +80,23 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
             <TrustBadge
               icon={Calendar}
-              title="15+ Years Experience"
+              title="15+ years experience"
             />
             <TrustBadge
               icon={Shield}
-              title="Fully Insured"
+              title="Fully insured"
             />
             <TrustBadge
               icon={Camera}
-              title="Daily Photo Updates"
+              title="Daily photo updates"
             />
             <TrustBadge
               icon={HomeIcon}
-              title="Pets Stay Home"
+              title="Pets stay home"
             />
             <TrustBadge
               icon={Clock}
-              title="Medication Given"
+              title="Medication given"
             />
           </div>
         </div>
@@ -142,7 +142,7 @@ export default function Home() {
               ></iframe>
             </div>
             <p className="text-sm text-gray-600 mt-4">
-              Service area includes Ashford town center and surrounding villages within approximately 10 miles
+              Service area includes Ashford town centre and surrounding villages within approximately 10 miles
             </p>
           </div>
         </div>
@@ -155,7 +155,7 @@ export default function Home() {
             Ready to book?
           </h2>
           <p className="text-xl mb-8 text-white/90">
-            Get in touch today for a personalized quote and to discuss your pet&rsquo;s needs
+            Get in touch today for a personalised quote and to discuss your pet&rsquo;s needs
           </p>
           <Button href="/contact" variant="secondary" size="lg">
             Contact me

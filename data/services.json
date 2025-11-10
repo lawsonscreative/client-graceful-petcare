@@ -10,7 +10,7 @@
       "Medication administered as needed",
       "House sitting included for security",
       "Daily photo and video updates",
-      "Mail and plant care included",
+      "General maintenance cleaning, mail and house care included",
       "Perfect for weekends or extended trips"
     ],
     "benefits": [
@@ -23,20 +23,20 @@
   {
     "id": "dog-walking",
     "title": "Dog walking",
-    "shortDescription": "30-60 minute solo or small-group walks on local routes. Weekday slots available.",
+    "shortDescription": "Solo or small-group walks on local routes.",
     "icon": "walk",
     "features": [
-      "30 or 60 minute walks available",
+      "Walks available for a duration of your choosing (chargeable at 30-minute increments)",
       "Solo walks or small friendly groups",
-      "Local scenic routes in Ashford",
-      "Weekday regular slots available",
+      "Local scenic routes",
+      "Regular slots available",
       "Fresh water provided",
       "Paws cleaned before returning home",
       "Flexible scheduling to suit your needs"
     ],
     "benefits": [
       "Regular exercise keeps your dog healthy",
-      "Mental stimulation and socialization",
+      "Mental stimulation and socialisation",
       "Professional, reliable service",
       "Perfect for busy work schedules"
     ]
@@ -52,7 +52,7 @@
       "Playtime and companionship",
       "Litter tray cleaning for cats",
       "Medication if required",
-      "30-45 minute visits",
+      "Visits for as long or short as you need (chargeable at 30-minute increments)",
       "Ideal for cats, puppies, or senior pets"
     ],
     "benefits": [

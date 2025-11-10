@@ -12,8 +12,8 @@ A modern, responsive website for Graceful Pet Care - a professional pet sitting 
 
 ## Brand Identity
 
-- **Primary Color:** #B87078 (dusty rose/mauve)
-- **Secondary Color:** #F5F5F0 (cream/off-white)
+- **Primary Colour:** #B87078 (dusty rose/mauve)
+- **Secondary Colour:** #F5F5F0 (cream/off-white)
 - **Typography:** Nunito for headings, Inter for body text
 - **Design:** Warm, trustworthy, friendly but professional
 
