@@ -199,7 +199,7 @@ export default function Home() {
             Areas serviced
           </h2>
           <p className="text-xl text-gray-700 leading-relaxed mb-8">
-            Proudly serving Ashford and surrounding villages. Not sure if I cover your area? Get in touch to find out!
+            Serving Ashford and the surrounding villages. Unsure if I cover your area? Contact me to check!
           </p>
 
           {/* Service Area Map */}
