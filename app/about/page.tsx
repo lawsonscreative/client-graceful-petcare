@@ -14,13 +14,30 @@ export default function About() {
   return (
     <div>
       <PageHeader
-        title="About Grace"
+        title="About me"
         subtitle="A devoted animal lover treating every pet with joyful care and respect"
         variant="gradient"
       />
 
       {/* Grace's Story */}
-      <section className="py-20">
+      <section className="relative py-20 overflow-hidden">
+        {/* Decorative Background Heartpaws */}
+        <div className="absolute -top-10 -left-20 w-[300px] h-[300px] opacity-[0.23] pointer-events-none -rotate-[25deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute bottom-20 -right-32 w-[340px] h-[340px] opacity-[0.21] pointer-events-none rotate-[40deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-xl">
@@ -58,7 +75,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 font-heading">
-              Why Pet Owners Trust Me
+              Why pet owners trust me
             </h2>
           </div>
 
@@ -98,10 +115,19 @@ export default function About() {
       </section>
 
       {/* Values Section */}
-      <section className="py-20">
+      <section className="relative py-20 overflow-hidden">
+        {/* Decorative Background Heartpaw */}
+        <div className="absolute top-1/2 -left-28 w-[280px] h-[280px] opacity-[0.19] pointer-events-none rotate-[15deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-12 text-center font-heading">
-            My Commitment to Your Pets
+            My commitment to your pets
           </h2>
 
           <div className="space-y-8">

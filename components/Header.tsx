@@ -41,7 +41,7 @@ export default function Header() {
                 priority
               />
             </div>
-            <div className="text-xl sm:text-2xl font-bold text-primary font-heading group-hover:text-primary-dark transition-colors">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary font-heading group-hover:text-primary-dark transition-colors">
               Graceful Pet Care
             </div>
           </Link>

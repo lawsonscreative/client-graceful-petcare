@@ -20,12 +20,29 @@ export default function Services() {
   return (
     <div>
       <PageHeader
-        title="Pet Care Services"
+        title="Pet care services"
         subtitle="Tailored care for your beloved pets in the comfort of their own home"
       />
 
       {/* Services Detail Section */}
-      <section className="py-20">
+      <section className="relative py-20 overflow-hidden">
+        {/* Decorative Background Heartpaws */}
+        <div className="absolute top-20 -right-28 w-[320px] h-[320px] opacity-[0.22] pointer-events-none rotate-[30deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute bottom-32 -left-24 w-[280px] h-[280px] opacity-[0.20] pointer-events-none -rotate-[20deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-24">
             {services.map((service, index) => {

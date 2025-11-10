@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
 import PageHeader from "@/components/PageHeader";
 import { Mail, MapPin, Clock } from "lucide-react";
@@ -12,19 +13,36 @@ export default function Contact() {
   return (
     <div>
       <PageHeader
-        title="Get in Touch"
+        title="Get in touch"
         subtitle="I'd love to hear from you and discuss how I can care for your pets"
         variant="gradient"
       />
 
       {/* Contact Section */}
-      <section className="py-20">
+      <section className="relative py-20 overflow-hidden">
+        {/* Decorative Background Heartpaws */}
+        <div className="absolute -top-10 -right-20 w-[310px] h-[310px] opacity-[0.23] pointer-events-none rotate-[25deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute bottom-10 -left-24 w-[290px] h-[290px] opacity-[0.21] pointer-events-none -rotate-[35deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-8 font-heading">
-                Contact Information
+                Contact information
               </h2>
 
               <div className="space-y-6 mb-10">
@@ -79,7 +97,7 @@ export default function Contact() {
 
               <div className="bg-cream rounded-2xl p-8">
                 <h3 className="text-xl font-bold text-gray-900 mb-4 font-heading">
-                  What to Include in Your Message
+                  What to include in your message
                 </h3>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start">
@@ -110,7 +128,7 @@ export default function Contact() {
             <div>
               <div className="bg-white rounded-2xl shadow-xl p-8 md:p-10">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6 font-heading">
-                  Send Me a Message
+                  Send me a message
                 </h2>
                 <ContactForm />
               </div>

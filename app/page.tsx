@@ -12,8 +12,16 @@ export default function Home() {
     <div>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-primary/5 to-cream py-12 lg:py-20 overflow-hidden">
-        {/* Decorative Background Heartpaw */}
-        <div className="absolute -top-20 -right-20 w-[400px] h-[400px] opacity-[0.15] pointer-events-none rotate-12">
+        {/* Decorative Background Heartpaws */}
+        <div className="absolute -top-20 -right-20 w-[400px] h-[400px] opacity-[0.22] pointer-events-none rotate-12 -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute top-1/2 -left-32 w-[280px] h-[280px] opacity-[0.18] pointer-events-none -rotate-[35deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -55,8 +63,16 @@ export default function Home() {
 
       {/* Services Section */}
       <section className="relative py-20 bg-white overflow-hidden">
-        {/* Decorative Background Heartpaw */}
-        <div className="absolute -bottom-10 -left-20 w-[350px] h-[350px] opacity-[0.18] pointer-events-none -rotate-[25deg]">
+        {/* Decorative Background Heartpaws */}
+        <div className="absolute -bottom-10 -left-20 w-[350px] h-[350px] opacity-[0.23] pointer-events-none -rotate-[25deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute top-10 -right-24 w-[250px] h-[250px] opacity-[0.20] pointer-events-none rotate-[45deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -67,7 +83,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-heading">
-              Pet Care Services
+              Pet care services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Professional, reliable care tailored to your pet&rsquo;s needs
@@ -92,7 +108,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-heading">
-              Why Choose Graceful Pet Care?
+              Why choose Graceful Pet Care?
             </h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
@@ -122,8 +138,16 @@ export default function Home() {
 
       {/* Testimonials Section */}
       <section className="relative py-20 bg-white overflow-hidden">
-        {/* Decorative Background Heartpaw */}
-        <div className="absolute -top-20 -right-20 w-[380px] h-[380px] opacity-[0.16] pointer-events-none rotate-[35deg]">
+        {/* Decorative Background Heartpaws */}
+        <div className="absolute -top-20 -right-20 w-[380px] h-[380px] opacity-[0.24] pointer-events-none rotate-[35deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute bottom-10 -left-28 w-[300px] h-[300px] opacity-[0.21] pointer-events-none -rotate-[15deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -134,7 +158,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-heading">
-              What Pet Owners Say
+              What pet owners say
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Real reviews from happy clients across Ashford

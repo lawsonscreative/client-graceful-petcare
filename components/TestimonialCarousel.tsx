@@ -21,8 +21,8 @@ export default function TestimonialCarousel({ testimonials }: TestimonialCarouse
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
-  const itemsPerView = 2; // Show 2 testimonials at a time on desktop
-  const totalSlides = Math.ceil(testimonials.length / itemsPerView);
+  const itemsPerView = 1; // Show 1 testimonial at a time
+  const totalSlides = testimonials.length;
 
   const goToNext = () => {
     setCurrentIndex((prev) => (prev + 1) % totalSlides);
@@ -32,13 +32,13 @@ export default function TestimonialCarousel({ testimonials }: TestimonialCarouse
     setCurrentIndex((prev) => (prev - 1 + totalSlides) % totalSlides);
   };
 
-  // Auto-rotate every 5 seconds
+  // Auto-rotate every 6 seconds
   useEffect(() => {
     if (!isAutoPlaying) return;
 
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % totalSlides);
-    }, 5000);
+    }, 6000);
     return () => clearInterval(interval);
   }, [isAutoPlaying, totalSlides]);
 
@@ -59,11 +59,11 @@ export default function TestimonialCarousel({ testimonials }: TestimonialCarouse
     >
       {/* Testimonials Display */}
       <div className="overflow-hidden">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="max-w-3xl mx-auto">
           {getVisibleTestimonials().map((testimonial) => (
             <div
               key={testimonial.id}
-              className="transition-opacity duration-500"
+              className="transition-all duration-500 transform"
             >
               <TestimonialCard
                 name={testimonial.name}
