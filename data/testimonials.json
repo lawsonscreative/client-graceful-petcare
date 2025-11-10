@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Rachel",
+    "location": "Repton Park, Ashford",
+    "petType": "Three Bengals",
+    "text": "I've trusted Grace to look after my three Bengals on several holidays and she's been fantastic. She's reliable and calm with their lively personalities! She sends daily photo and video updates and follows their routines perfectly. I wouldn't hesitate to recommend Graceful Pet Care to any pet owner.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Sue",
+    "location": "Willesborough, Ashford",
+    "petType": "Labrador (Jake)",
+    "text": "I left my Labrador Jake with Grace while I visited family in the West Country and couldn't have been happier. Grace made Jake feel right at home, sent regular updates and photos, and gave him plenty of walks and attention. Knowing he was safe and loved meant I could enjoy my trip without worry.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Michael",
+    "location": "South Willesborough, Ashford",
+    "petType": "Maltese Terrier (Milo)",
+    "text": "I left my little Maltese Terrier, Milo, with Grace while I was away and felt completely at ease. Milo was well cared for, loved and walked daily. The updates and photos were lovely, and coming home to a happy, content dog made my holiday stress-free. I wouldn't hesitate to leave Milo with Grace again.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Carol & Paul",
+    "location": "Lympne, Hythe",
+    "petType": "Plummer Terrier",
+    "text": "Grace has pet sat our Plummer Terrier at our home on a lot of days where it would be too long to leave him alone and we couldn't have been more impressed. He needs plenty of exercise and Grace kept him active with long walks and lots of playtime during her visits. She followed his routine and we returned to a happy but tired boy. We will definitely book Grace again.",
+    "rating": 5
+  }
+]

@@ -1,101 +1,162 @@
 import Image from "next/image";
+import Button from "@/components/Button";
+import ServiceCard from "@/components/ServiceCard";
+import TestimonialCard from "@/components/TestimonialCard";
+import TrustBadge from "@/components/TrustBadge";
+import { Shield, Calendar, Camera, Home as HomeIcon, Clock } from "lucide-react";
+import services from "@/data/services.json";
+import testimonials from "@/data/testimonials.json";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div>
+      {/* Hero Section */}
+      <section className="relative bg-gradient-to-b from-primary/5 to-cream py-20 lg:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 font-heading leading-tight">
+                Trusted pet care in Ashford while you&rsquo;re away
+              </h1>
+              <p className="text-xl text-gray-700 mb-8 leading-relaxed">
+                Your pets stay happy at home with experienced, insured care
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button href="/contact" size="lg">
+                  Get a Quote
+                </Button>
+                <Button href="/services" variant="outline" size="lg">
+                  View Services
+                </Button>
+              </div>
+            </div>
+            <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg"
+                alt="Happy golden retriever dog"
+                fill
+                className="object-cover"
+                priority
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+
+      {/* Services Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-heading">
+              Pet Care Services
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Professional, reliable care tailored to your pet&rsquo;s needs
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {services.map((service) => (
+              <ServiceCard
+                key={service.id}
+                title={service.title}
+                description={service.shortDescription}
+                icon={service.icon}
+                id={service.id}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us Section */}
+      <section className="py-20 bg-cream">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-heading">
+              Why Choose Graceful Pet Care?
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
+            <TrustBadge
+              icon={Calendar}
+              title="15+ Years Experience"
+            />
+            <TrustBadge
+              icon={Shield}
+              title="Fully Insured"
+            />
+            <TrustBadge
+              icon={Camera}
+              title="Daily Photo Updates"
+            />
+            <TrustBadge
+              icon={HomeIcon}
+              title="Pets Stay Home"
+            />
+            <TrustBadge
+              icon={Clock}
+              title="Medication Given"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-heading">
+              What Pet Owners Say
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Real reviews from happy clients across Ashford
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {testimonials.map((testimonial) => (
+              <TestimonialCard
+                key={testimonial.id}
+                name={testimonial.name}
+                location={testimonial.location}
+                petType={testimonial.petType}
+                text={testimonial.text}
+                rating={testimonial.rating}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Service Area Section */}
+      <section className="py-20 bg-cream">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 font-heading">
+            Service Area
+          </h2>
+          <p className="text-xl text-gray-700 leading-relaxed">
+            Proudly serving Ashford and surrounding villages. Not sure if I cover your area?{" "}
+            <a href="/contact" className="text-primary font-semibold hover:underline">
+              Get in touch!
+            </a>
+          </p>
+        </div>
+      </section>
+
+      {/* Contact CTA Section */}
+      <section className="py-20 bg-primary text-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 font-heading">
+            Ready to book?
+          </h2>
+          <p className="text-xl mb-8 text-white/90">
+            Get in touch today for a personalized quote and to discuss your pet&rsquo;s needs
+          </p>
+          <Button href="/contact" variant="secondary" size="lg">
+            Contact Me
+          </Button>
+        </div>
+      </section>
     </div>
   );
 }

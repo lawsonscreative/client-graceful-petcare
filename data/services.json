@@ -1,0 +1,65 @@
+[
+  {
+    "id": "overnight-pet-sitting",
+    "title": "Overnight Pet & House Sitting",
+    "shortDescription": "Pets stay in their own home, routines maintained, medication given if needed. Perfect for weekends or longer trips.",
+    "icon": "home",
+    "features": [
+      "Your pet stays comfortable in their own home",
+      "All regular routines maintained",
+      "Medication administered as needed",
+      "House sitting included for security",
+      "Daily photo and video updates",
+      "Mail and plant care included",
+      "Perfect for weekends or extended trips"
+    ],
+    "benefits": [
+      "Reduced stress for your pet",
+      "No kennel fees or travel required",
+      "Home security while you're away",
+      "Peace of mind with regular updates"
+    ]
+  },
+  {
+    "id": "dog-walking",
+    "title": "Dog Walking",
+    "shortDescription": "30-60 minute solo or small-group walks on local routes. Weekday slots available.",
+    "icon": "walk",
+    "features": [
+      "30 or 60 minute walks available",
+      "Solo walks or small friendly groups",
+      "Local scenic routes in Ashford",
+      "Weekday regular slots available",
+      "Fresh water provided",
+      "Paws cleaned before returning home",
+      "Flexible scheduling to suit your needs"
+    ],
+    "benefits": [
+      "Regular exercise keeps your dog healthy",
+      "Mental stimulation and socialization",
+      "Professional, reliable service",
+      "Perfect for busy work schedules"
+    ]
+  },
+  {
+    "id": "drop-in-visits",
+    "title": "Drop-in Visits",
+    "shortDescription": "Feeding, water, toilet breaks, and playtime. Good for cats, puppies, or older dogs.",
+    "icon": "clock",
+    "features": [
+      "Feeding and fresh water",
+      "Toilet breaks and waste cleanup",
+      "Playtime and companionship",
+      "Litter tray cleaning for cats",
+      "Medication if required",
+      "30-45 minute visits",
+      "Ideal for cats, puppies, or senior pets"
+    ],
+    "benefits": [
+      "Perfect for pets who prefer home",
+      "Flexible visit times to suit your schedule",
+      "Consistent care throughout the day",
+      "Great for working professionals"
+    ]
+  }
+]

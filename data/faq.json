@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "What areas do you cover?",
+    "answer": "I provide pet care services throughout Ashford and the surrounding villages. If you're not sure whether I cover your area, please get in touch and I'll be happy to let you know."
+  },
+  {
+    "id": 2,
+    "question": "Are you insured?",
+    "answer": "Yes, I am fully insured for pet care services, giving you complete peace of mind when you leave your pets in my care."
+  },
+  {
+    "id": 3,
+    "question": "Can you give my pet medication?",
+    "answer": "Absolutely. I'm experienced in administering various types of medication including tablets, liquids, and injections. I'll follow your vet's instructions precisely to ensure your pet receives the care they need."
+  },
+  {
+    "id": 4,
+    "question": "What if my pet is nervous or anxious?",
+    "answer": "I have over 15 years of experience working with pets of all temperaments. I take time to build trust with nervous pets, respecting their boundaries and working at their pace. Many anxious pets have flourished with patient, consistent care."
+  },
+  {
+    "id": 5,
+    "question": "How do I book your services?",
+    "answer": "Simply contact me via email at hello@gracefulpetcare.co.uk or use the contact form on this website. Let me know your pet's needs, the dates you require care, and any special requirements. I'll get back to you promptly with availability and pricing."
+  },
+  {
+    "id": 6,
+    "question": "Will I receive updates about my pet?",
+    "answer": "Yes! I send daily photo and video updates so you can see your pet is happy and well cared for. This is especially important when you're away and helps give you peace of mind."
+  },
+  {
+    "id": 7,
+    "question": "What happens in an emergency?",
+    "answer": "I have your emergency contact details and your vet's information on file. In the unlikely event of an emergency, I will contact your vet immediately and keep you fully informed every step of the way."
+  },
+  {
+    "id": 8,
+    "question": "Do you care for pets other than cats and dogs?",
+    "answer": "Yes! I care for all types of pets whether big, small, furry or feathered. I treat every animal with the same joyful care and respect. Please get in touch to discuss your pet's specific needs."
+  },
+  {
+    "id": 9,
+    "question": "How much do your services cost?",
+    "answer": "Every pet and situation is unique, so I provide tailored pricing based on your specific needs. Contact me with details about your pet, the type of care required, and dates, and I'll provide a personalized quote."
+  },
+  {
+    "id": 10,
+    "question": "How far in advance should I book?",
+    "answer": "I recommend booking as early as possible, especially for holiday periods and weekends. However, I understand that sometimes you need care at short notice, so please do get in touch even if your dates are coming up soon."
+  }
+]
