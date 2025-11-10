@@ -21,7 +21,7 @@ export default function FAQ() {
       {/* FAQ Section */}
       <section className="relative py-20 overflow-hidden">
         {/* Decorative Background Heartpaws */}
-        <div className="absolute top-10 -right-24 w-[300px] h-[300px] opacity-[0.22] pointer-events-none rotate-[35deg] -z-10">
+        <div className="absolute top-10 -right-24 w-[360px] h-[360px] opacity-[0.29] pointer-events-none rotate-[35deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -29,7 +29,23 @@ export default function FAQ() {
             className="object-contain"
           />
         </div>
-        <div className="absolute bottom-20 -left-28 w-[270px] h-[270px] opacity-[0.20] pointer-events-none -rotate-[30deg] -z-10">
+        <div className="absolute bottom-20 -left-28 w-[330px] h-[330px] opacity-[0.27] pointer-events-none -rotate-[30deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute top-1/2 left-1/3 w-[240px] h-[240px] opacity-[0.26] pointer-events-none rotate-[60deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute bottom-1/3 right-1/4 w-[200px] h-[200px] opacity-[0.25] pointer-events-none -rotate-[45deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -60,7 +76,7 @@ export default function FAQ() {
             I&rsquo;m happy to answer any questions you have about caring for your pet
           </p>
           <Button href="/contact" size="lg">
-            Get in Touch
+            Get in touch
           </Button>
         </div>
       </section>

@@ -27,7 +27,7 @@ export default function Services() {
       {/* Services Detail Section */}
       <section className="relative py-20 overflow-hidden">
         {/* Decorative Background Heartpaws */}
-        <div className="absolute top-20 -right-28 w-[320px] h-[320px] opacity-[0.22] pointer-events-none rotate-[30deg] -z-10">
+        <div className="absolute top-20 -right-28 w-[380px] h-[380px] opacity-[0.28] pointer-events-none rotate-[30deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -35,7 +35,23 @@ export default function Services() {
             className="object-contain"
           />
         </div>
-        <div className="absolute bottom-32 -left-24 w-[280px] h-[280px] opacity-[0.20] pointer-events-none -rotate-[20deg] -z-10">
+        <div className="absolute bottom-32 -left-24 w-[340px] h-[340px] opacity-[0.27] pointer-events-none -rotate-[20deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute top-1/3 left-10 w-[220px] h-[220px] opacity-[0.25] pointer-events-none rotate-[55deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute bottom-1/4 right-1/4 w-[260px] h-[260px] opacity-[0.26] pointer-events-none -rotate-[40deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -92,7 +108,7 @@ export default function Services() {
                       {/* Features */}
                       <div className="mb-8">
                         <h3 className="text-xl font-bold text-gray-900 mb-4 font-heading">
-                          What&rsquo;s Included:
+                          What&rsquo;s included:
                         </h3>
                         <ul className="space-y-3">
                           {service.features.map((feature, idx) => (
@@ -141,7 +157,7 @@ export default function Services() {
             Get in touch and I&rsquo;ll help you find the perfect care solution for your pet
           </p>
           <Button href="/contact" variant="secondary" size="lg">
-            Contact Me
+            Contact me
           </Button>
         </div>
       </section>

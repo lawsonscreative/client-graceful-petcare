@@ -22,7 +22,7 @@ export default function About() {
       {/* Grace's Story */}
       <section className="relative py-20 overflow-hidden">
         {/* Decorative Background Heartpaws */}
-        <div className="absolute -top-10 -left-20 w-[300px] h-[300px] opacity-[0.23] pointer-events-none -rotate-[25deg] -z-10">
+        <div className="absolute -top-10 -left-20 w-[360px] h-[360px] opacity-[0.29] pointer-events-none -rotate-[25deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -30,7 +30,15 @@ export default function About() {
             className="object-contain"
           />
         </div>
-        <div className="absolute bottom-20 -right-32 w-[340px] h-[340px] opacity-[0.21] pointer-events-none rotate-[40deg] -z-10">
+        <div className="absolute bottom-20 -right-32 w-[400px] h-[400px] opacity-[0.27] pointer-events-none rotate-[40deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute top-1/2 right-1/4 w-[240px] h-[240px] opacity-[0.26] pointer-events-none -rotate-[50deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -117,7 +125,15 @@ export default function About() {
       {/* Values Section */}
       <section className="relative py-20 overflow-hidden">
         {/* Decorative Background Heartpaw */}
-        <div className="absolute top-1/2 -left-28 w-[280px] h-[280px] opacity-[0.19] pointer-events-none rotate-[15deg] -z-10">
+        <div className="absolute top-1/2 -left-28 w-[320px] h-[320px] opacity-[0.28] pointer-events-none rotate-[15deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute bottom-10 right-10 w-[280px] h-[280px] opacity-[0.26] pointer-events-none -rotate-[35deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -133,7 +149,7 @@ export default function About() {
           <div className="space-y-8">
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-cream">
               <h3 className="text-2xl font-bold text-primary mb-4 font-heading">
-                Individual Care
+                Individual care
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 Every pet is different, and I tailor my approach to suit their unique personality, needs, and routines. Whether your pet is energetic or anxious, young or elderly, I provide the care they deserve.
@@ -142,7 +158,7 @@ export default function About() {
 
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-cream">
               <h3 className="text-2xl font-bold text-primary mb-4 font-heading">
-                Reliability You Can Count On
+                Reliability you can count on
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 When you book with me, you can trust that I&rsquo;ll be there. I understand how important your pet is to you, and I treat every booking with the professionalism and dedication it deserves.
@@ -151,7 +167,7 @@ export default function About() {
 
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-cream">
               <h3 className="text-2xl font-bold text-primary mb-4 font-heading">
-                Transparent Communication
+                Transparent communication
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 I believe in keeping you informed and reassured. You&rsquo;ll receive daily photo and video updates, and I&rsquo;m always available to answer questions or address any concerns about your pet&rsquo;s care.
@@ -171,7 +187,7 @@ export default function About() {
             I&rsquo;d love to meet you and your pet. Get in touch to discuss how I can help.
           </p>
           <Button href="/contact" variant="secondary" size="lg">
-            Get in Touch
+            Get in touch
           </Button>
         </div>
       </section>

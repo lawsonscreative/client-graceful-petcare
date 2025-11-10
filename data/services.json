@@ -1,7 +1,7 @@
 [
   {
     "id": "overnight-pet-sitting",
-    "title": "Overnight Pet & House Sitting",
+    "title": "Overnight pet & house sitting",
     "shortDescription": "Pets stay in their own home, routines maintained, medication given if needed. Perfect for weekends or longer trips.",
     "icon": "home",
     "features": [
@@ -22,7 +22,7 @@
   },
   {
     "id": "dog-walking",
-    "title": "Dog Walking",
+    "title": "Dog walking",
     "shortDescription": "30-60 minute solo or small-group walks on local routes. Weekday slots available.",
     "icon": "walk",
     "features": [
@@ -43,7 +43,7 @@
   },
   {
     "id": "drop-in-visits",
-    "title": "Drop-in Visits",
+    "title": "Drop-in visits",
     "shortDescription": "Feeding, water, toilet breaks, and playtime. Good for cats, puppies, or older dogs.",
     "icon": "clock",
     "features": [

@@ -13,7 +13,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-primary/5 to-cream py-12 lg:py-20 overflow-hidden">
         {/* Decorative Background Heartpaws */}
-        <div className="absolute -top-20 -right-20 w-[400px] h-[400px] opacity-[0.22] pointer-events-none rotate-12 -z-10">
+        <div className="absolute -top-20 -right-20 w-[500px] h-[500px] opacity-[0.28] pointer-events-none rotate-12 -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -21,7 +21,15 @@ export default function Home() {
             className="object-contain"
           />
         </div>
-        <div className="absolute top-1/2 -left-32 w-[280px] h-[280px] opacity-[0.18] pointer-events-none -rotate-[35deg] -z-10">
+        <div className="absolute top-1/2 -left-32 w-[320px] h-[320px] opacity-[0.26] pointer-events-none -rotate-[35deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute bottom-10 right-1/4 w-[200px] h-[200px] opacity-[0.25] pointer-events-none rotate-[60deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -40,10 +48,10 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button href="/contact" size="lg">
-                  Get a Quote
+                  Get a quote
                 </Button>
                 <Button href="/services" variant="outline" size="lg">
-                  View Services
+                  View services
                 </Button>
               </div>
             </div>
@@ -64,7 +72,7 @@ export default function Home() {
       {/* Services Section */}
       <section className="relative py-20 bg-white overflow-hidden">
         {/* Decorative Background Heartpaws */}
-        <div className="absolute -bottom-10 -left-20 w-[350px] h-[350px] opacity-[0.23] pointer-events-none -rotate-[25deg] -z-10">
+        <div className="absolute -bottom-10 -left-20 w-[420px] h-[420px] opacity-[0.29] pointer-events-none -rotate-[25deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -72,7 +80,15 @@ export default function Home() {
             className="object-contain"
           />
         </div>
-        <div className="absolute top-10 -right-24 w-[250px] h-[250px] opacity-[0.20] pointer-events-none rotate-[45deg] -z-10">
+        <div className="absolute top-10 -right-24 w-[300px] h-[300px] opacity-[0.27] pointer-events-none rotate-[45deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute top-1/2 left-1/4 w-[220px] h-[220px] opacity-[0.25] pointer-events-none -rotate-[50deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -139,7 +155,7 @@ export default function Home() {
       {/* Testimonials Section */}
       <section className="relative py-20 bg-white overflow-hidden">
         {/* Decorative Background Heartpaws */}
-        <div className="absolute -top-20 -right-20 w-[380px] h-[380px] opacity-[0.24] pointer-events-none rotate-[35deg] -z-10">
+        <div className="absolute -top-20 -right-20 w-[480px] h-[480px] opacity-[0.30] pointer-events-none rotate-[35deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -147,7 +163,15 @@ export default function Home() {
             className="object-contain"
           />
         </div>
-        <div className="absolute bottom-10 -left-28 w-[300px] h-[300px] opacity-[0.21] pointer-events-none -rotate-[15deg] -z-10">
+        <div className="absolute bottom-10 -left-28 w-[360px] h-[360px] opacity-[0.28] pointer-events-none -rotate-[15deg] -z-10">
+          <Image
+            src="/images/heartpaw.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute top-1/3 right-1/3 w-[240px] h-[240px] opacity-[0.26] pointer-events-none rotate-[70deg] -z-10">
           <Image
             src="/images/heartpaw.png"
             alt=""
@@ -172,13 +196,10 @@ export default function Home() {
       <section className="py-20 bg-cream">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 font-heading">
-            Service Area
+            Areas serviced
           </h2>
           <p className="text-xl text-gray-700 leading-relaxed">
-            Proudly serving Ashford and surrounding villages. Not sure if I cover your area?{" "}
-            <a href="/contact" className="text-primary font-semibold hover:underline">
-              Get in touch!
-            </a>
+            Proudly serving Ashford and surrounding villages. Not sure if I cover your area? Get in touch to find out!
           </p>
         </div>
       </section>
@@ -193,7 +214,7 @@ export default function Home() {
             Get in touch today for a personalized quote and to discuss your pet&rsquo;s needs
           </p>
           <Button href="/contact" variant="secondary" size="lg">
-            Contact Me
+            Contact me
           </Button>
         </div>
       </section>
