@@ -37,7 +37,7 @@ export default function Home() {
             className="object-contain"
           />
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 font-heading leading-tight">
@@ -96,7 +96,7 @@ export default function Home() {
             className="object-contain"
           />
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-heading">
               Pet care services
@@ -121,7 +121,7 @@ export default function Home() {
 
       {/* Why Choose Us Section */}
       <section className="py-20 bg-cream">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-heading">
               Why choose Graceful Pet Care?
@@ -179,7 +179,7 @@ export default function Home() {
             className="object-contain"
           />
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-heading">
               What pet owners say
@@ -194,19 +194,38 @@ export default function Home() {
 
       {/* Service Area Section */}
       <section className="py-20 bg-cream">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 font-heading">
             Areas serviced
           </h2>
-          <p className="text-xl text-gray-700 leading-relaxed">
+          <p className="text-xl text-gray-700 leading-relaxed mb-8">
             Proudly serving Ashford and surrounding villages. Not sure if I cover your area? Get in touch to find out!
           </p>
+
+          {/* Service Area Map */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 max-w-2xl mx-auto">
+            <div className="aspect-video w-full rounded-xl overflow-hidden border-2 border-primary/10">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40233.89087847629!2d0.8487!3d51.1465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47decbcfbfbfbfbf%3A0x3e7d7d7d7d7d7d7d!2sAshford%2C%20UK!5e0!3m2!1sen!2sus!4v1234567890"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Service area map showing Ashford and surrounding villages"
+              ></iframe>
+            </div>
+            <p className="text-sm text-gray-600 mt-4">
+              Service area includes Ashford town center and surrounding villages within approximately 10 miles
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Contact CTA Section */}
       <section className="py-20 bg-primary text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 font-heading">
             Ready to book?
           </h2>

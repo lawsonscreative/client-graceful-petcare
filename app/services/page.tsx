@@ -59,7 +59,7 @@ export default function Services() {
             className="object-contain"
           />
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="space-y-24">
             {services.map((service, index) => {
               const IconComponent = iconMap[service.icon as keyof typeof iconMap] || Home;
@@ -149,7 +149,7 @@ export default function Services() {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 font-heading">
             Can&rsquo;t decide which service is right for you?
           </h2>

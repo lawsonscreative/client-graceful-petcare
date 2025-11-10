@@ -46,7 +46,7 @@ export default function About() {
             className="object-contain"
           />
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-xl">
               <Image
@@ -80,7 +80,7 @@ export default function About() {
 
       {/* Why Trust Grace */}
       <section className="py-20 bg-cream">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 font-heading">
               Why pet owners trust me
@@ -141,7 +141,7 @@ export default function About() {
             className="object-contain"
           />
         </div>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-12 text-center font-heading">
             My commitment to your pets
           </h2>
@@ -179,7 +179,7 @@ export default function About() {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 font-heading">
             Let&rsquo;s Talk About Your Pet&rsquo;s Needs
           </h2>
