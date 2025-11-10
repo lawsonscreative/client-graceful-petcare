@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Graceful Pet Care Website
+
+A modern, responsive website for Graceful Pet Care - a professional pet sitting business in Ashford, Kent.
+
+## Tech Stack
+
+- **Next.js 14** with App Router
+- **TypeScript** for type safety
+- **Tailwind CSS** for styling
+- **Lucide React** for icons
+- **Google Fonts** (Inter + Nunito)
+
+## Brand Identity
+
+- **Primary Color:** #B87078 (dusty rose/mauve)
+- **Secondary Color:** #F5F5F0 (cream/off-white)
+- **Typography:** Nunito for headings, Inter for body text
+- **Design:** Warm, trustworthy, friendly but professional
+
+## Project Structure
+
+```
+client-graceful-petcare/
+├── app/                    # Next.js App Router pages
+│   ├── about/             # About Grace page
+│   ├── contact/           # Contact page with form
+│   ├── faq/               # FAQ page with accordion
+│   ├── services/          # Services detail page
+│   ├── layout.tsx         # Root layout with Header/Footer
+│   └── page.tsx           # Homepage
+├── components/            # Reusable React components
+│   ├── Button.tsx
+│   ├── ContactForm.tsx
+│   ├── FAQItem.tsx
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   ├── ServiceCard.tsx
+│   ├── TestimonialCard.tsx
+│   └── TrustBadge.tsx
+├── data/                  # JSON data files
+│   ├── faq.json
+│   ├── services.json
+│   └── testimonials.json
+└── public/                # Static assets
+    └── images/            # Logo and images go here
+```
 
 ## Getting Started
 
-First, run the development server:
+### Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- Fully responsive design (mobile-first)
+- SEO optimized with metadata
+- Accessible (ARIA labels, keyboard navigation)
+- Data-driven architecture (easy to update content)
+- Modern UI with smooth transitions
+- Contact form ready for EmailJS integration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Pages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Homepage** - Hero, services overview, testimonials, trust badges, CTAs
+2. **Services** - Detailed breakdown of all pet care services
+3. **About** - Grace's story, experience, and values
+4. **FAQ** - Common questions with accordion UI
+5. **Contact** - Contact form and contact information
 
-## Deploy on Vercel
+## Assets Needed
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `heartpaw.png` - Logo (place in `/public/images/`)
+- `Graceful_Pet_Care_flyer_page_1.png` - Reference
+- `Graceful_Pet_Care_flyer_page_2.png` - Reference
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Next Steps
+
+1. Upload logo (`heartpaw.png`) to `/public/images/`
+2. Replace placeholder Pexels images with high-quality pet photos
+3. Set up EmailJS for contact form functionality
+4. Test on multiple devices and browsers
+5. Deploy to Vercel or hosting platform
+
+## Contact Information
+
+- **Email:** hello@gracefulpetcare.co.uk
+- **Location:** Ashford and surrounding villages, Kent
+- **Experience:** 15+ years
+- **Insurance:** Fully insured
+
+## Git Workflow
+
+- Signed commits required (`git commit -S`)
+- Will push to `lawsonscreative/client-graceful-petcare` on GitHub
+
+---
+
+Built with care by Lawson's Creative
