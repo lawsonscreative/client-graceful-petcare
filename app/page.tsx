@@ -12,32 +12,7 @@ export default function Home() {
     <div>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-primary/5 to-cream py-12 lg:py-20 overflow-hidden">
-        {/* Decorative Background Heartpaws */}
-        <div className="absolute -top-20 -right-20 w-[500px] h-[500px] opacity-[0.28] pointer-events-none rotate-12 -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute top-1/2 -left-32 w-[320px] h-[320px] opacity-[0.26] pointer-events-none -rotate-[35deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute bottom-10 right-1/4 w-[200px] h-[200px] opacity-[0.25] pointer-events-none rotate-[60deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 font-heading leading-tight">
@@ -70,33 +45,8 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="relative py-20 bg-white overflow-hidden">
-        {/* Decorative Background Heartpaws */}
-        <div className="absolute -bottom-10 -left-20 w-[420px] h-[420px] opacity-[0.29] pointer-events-none -rotate-[25deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute top-10 -right-24 w-[300px] h-[300px] opacity-[0.27] pointer-events-none rotate-[45deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute top-1/2 left-1/4 w-[220px] h-[220px] opacity-[0.25] pointer-events-none -rotate-[50deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-heading">
               Pet care services
@@ -153,33 +103,8 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="relative py-20 bg-white overflow-hidden">
-        {/* Decorative Background Heartpaws */}
-        <div className="absolute -top-20 -right-20 w-[480px] h-[480px] opacity-[0.30] pointer-events-none rotate-[35deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute bottom-10 -left-28 w-[360px] h-[360px] opacity-[0.28] pointer-events-none -rotate-[15deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute top-1/3 right-1/3 w-[240px] h-[240px] opacity-[0.26] pointer-events-none rotate-[70deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 font-heading">
               What pet owners say
@@ -194,7 +119,7 @@ export default function Home() {
 
       {/* Service Area Section */}
       <section className="py-20 bg-cream">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 font-heading">
             Areas serviced
           </h2>
@@ -225,7 +150,7 @@ export default function Home() {
 
       {/* Contact CTA Section */}
       <section className="py-20 bg-primary text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 font-heading">
             Ready to book?
           </h2>

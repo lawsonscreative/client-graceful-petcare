@@ -20,33 +20,8 @@ export default function About() {
       />
 
       {/* Grace's Story */}
-      <section className="relative py-20 overflow-hidden">
-        {/* Decorative Background Heartpaws */}
-        <div className="absolute -top-10 -left-20 w-[360px] h-[360px] opacity-[0.29] pointer-events-none -rotate-[25deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute bottom-20 -right-32 w-[400px] h-[400px] opacity-[0.27] pointer-events-none rotate-[40deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute top-1/2 right-1/4 w-[240px] h-[240px] opacity-[0.26] pointer-events-none -rotate-[50deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-xl">
               <Image
@@ -80,7 +55,7 @@ export default function About() {
 
       {/* Why Trust Grace */}
       <section className="py-20 bg-cream">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 font-heading">
               Why pet owners trust me
@@ -123,25 +98,8 @@ export default function About() {
       </section>
 
       {/* Values Section */}
-      <section className="relative py-20 overflow-hidden">
-        {/* Decorative Background Heartpaw */}
-        <div className="absolute top-1/2 -left-28 w-[320px] h-[320px] opacity-[0.28] pointer-events-none rotate-[15deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute bottom-10 right-10 w-[280px] h-[280px] opacity-[0.26] pointer-events-none -rotate-[35deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-12 text-center font-heading">
             My commitment to your pets
           </h2>
@@ -179,7 +137,7 @@ export default function About() {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 font-heading">
             Let&rsquo;s Talk About Your Pet&rsquo;s Needs
           </h2>

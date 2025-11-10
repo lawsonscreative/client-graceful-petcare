@@ -19,41 +19,8 @@ export default function Contact() {
       />
 
       {/* Contact Section */}
-      <section className="relative py-20 overflow-hidden">
-        {/* Decorative Background Heartpaws */}
-        <div className="absolute -top-10 -right-20 w-[380px] h-[380px] opacity-[0.30] pointer-events-none rotate-[25deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute bottom-10 -left-24 w-[350px] h-[350px] opacity-[0.28] pointer-events-none -rotate-[35deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute top-1/3 left-1/2 w-[260px] h-[260px] opacity-[0.26] pointer-events-none rotate-[50deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute bottom-1/4 right-1/3 w-[220px] h-[220px] opacity-[0.27] pointer-events-none -rotate-[55deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>

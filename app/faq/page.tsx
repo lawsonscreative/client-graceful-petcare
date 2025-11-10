@@ -19,41 +19,8 @@ export default function FAQ() {
       />
 
       {/* FAQ Section */}
-      <section className="relative py-20 overflow-hidden">
-        {/* Decorative Background Heartpaws */}
-        <div className="absolute top-10 -right-24 w-[360px] h-[360px] opacity-[0.29] pointer-events-none rotate-[35deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute bottom-20 -left-28 w-[330px] h-[330px] opacity-[0.27] pointer-events-none -rotate-[30deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute top-1/2 left-1/3 w-[240px] h-[240px] opacity-[0.26] pointer-events-none rotate-[60deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute bottom-1/3 right-1/4 w-[200px] h-[200px] opacity-[0.25] pointer-events-none -rotate-[45deg] -z-10">
-          <Image
-            src="/images/heartpaw.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
             {faqData.map((faq) => (
               <FAQItem
@@ -68,7 +35,7 @@ export default function FAQ() {
 
       {/* Still Have Questions */}
       <section className="py-20 bg-cream">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6 font-heading">
             Still have questions?
           </h2>
